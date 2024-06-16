@@ -1,2 +1,2 @@
-# ejercicios-javascript
+# Ejercicios de JavaScript
 Trabajo Practico Opcional
