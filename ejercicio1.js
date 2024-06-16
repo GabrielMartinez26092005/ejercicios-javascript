@@ -3,7 +3,7 @@
 // Utiliza un bucle for...of para iterar sobre los elementos del array.
 
 function elevar_al_cuadrado_un_array(lista){
-    lista_modificada = []
+    let lista_modificada = []
     for (const item of lista) {
         lista_modificada.push(item * item)        
     }
@@ -11,8 +11,8 @@ function elevar_al_cuadrado_un_array(lista){
 }
 
 
-array = [2, 4, 6]
-array_cuadrado = elevar_al_cuadrado_un_array(array)
+let array = [2, 4, 6]
+let array_cuadrado = elevar_al_cuadrado_un_array(array)
 console.log(array_cuadrado)
 
 
