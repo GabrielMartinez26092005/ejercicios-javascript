@@ -5,7 +5,8 @@
 
 function cambiar_a_mayusculas(cadena){
     let nueva_cadena = ''
-    for (let i = 0; i < cadena.length; i++){
+    let longitud_cadena = cadena.length
+    for (let i = 0; i < longitud_cadena; i++){
         if (cadena[i] == 'a' || cadena[i] == 'e' || cadena[i] == 'i' || cadena[i] == 'o' || cadena[i] == 'u'){
             nueva_cadena += cadena[i].toUpperCase()
         }
