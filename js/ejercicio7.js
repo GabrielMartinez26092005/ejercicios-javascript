@@ -13,5 +13,7 @@ function sumar_arrays(array1, array2){
 }
 
 let primer_array = [1,2,3]
+console.log(primer_array)
 let segundo_array = [1,2,3]
+console.log(segundo_array_array)
 console.log(sumar_arrays(primer_array,segundo_array))

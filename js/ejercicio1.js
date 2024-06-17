@@ -13,6 +13,7 @@ function elevar_al_cuadrado_un_array(lista){
 
 
 let array = [2, 4, 6]
+console.log(array)
 let array_cuadrado = elevar_al_cuadrado_un_array(array)
 console.log(array_cuadrado)
 

@@ -11,4 +11,5 @@ function cadena_orden_inverso(cadena){
 }
 
 let mi_cadena = 'Hola'
+console.log(mi_cadena)
 console.log(cadena_orden_inverso(mi_cadena))

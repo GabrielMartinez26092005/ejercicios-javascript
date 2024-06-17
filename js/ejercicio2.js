@@ -18,5 +18,6 @@ function cambiar_a_mayusculas(cadena){
 }
 
 let mi_cadena = 'hola, mundo!'
+console.log(mi_cadena)
 let cadena_mayusculas = cambiar_a_mayusculas(mi_cadena)
 console.log(cadena_mayusculas)
